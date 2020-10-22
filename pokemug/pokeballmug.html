@@ -14,7 +14,7 @@
             <tr>
                 <th>
                     <p>
-                        <a href="accueil.html">Accueil</a>
+                        <a href="../accueil.html">Accueil</a>
                         >
                         <a href="./">Les pokemugs</a>
                         >
@@ -36,34 +36,62 @@
         <tbody>
             <tr>
                 <td>
-                    <table bgcolor=white background="../img/bgpokeball.jpg">
+                    <table background="../img/bgpokeball.jpg">
                         <tbody>
                             <tr>
                                 <td rowspan="2">
                                     <img src="img/pokeMug.jpg" alt="pokeMug" width="400">
                                 </td>
 
+
                                 <td align="right">
 
                                     <form action="../form/commander.html" method="GET" target="_parent">
 
-                                        <fieldset>
-                                            <legend>Attrapez les tous !!</legend>
-                                            <h3>Faites des galipettes sans renverser votre précieuse boissons ! c'est ce que la pokeball mug vous offre ! 
-                                            </h3>
-                                        </fieldset>
-                                        <br>
-                                        
-                                        <div>
-                                            <label for="_number">Nombre</label>
-                                            <input type="number" size="5" name="_number" value="1"><br>
-                                            <input type="hidden" name="_name" value="nanimug">
-                                        </div>
+                                
+                                        <table bgcolor=white>
+                                            <thead>
+                                                <tr>
+                                                    <th colspan="2">
+                                                        <fieldset>
+                                                            <legend>Attrapez les tous !!</legend>
+                                                            <h3>Faites des galipettes sans renverser votre précieuse boissons ! c'est ce que la pokeball mug vous offre ! 
+                                                            </h3>
+                                                        </fieldset>
+                                                    </th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td align="right">
+                                                        <fieldset>
+                                                            <legend for="_number">Prix</legend>
+                                                            <big> 14,</big> <sup> 99</sup> €<br>
+                                                            <input type="hidden" name="_name" value="bulbiMug">
+                                                        </fieldset>
+                                                    </td>
+                                                    <td align="right">
+                                                        <div>
+                                                            <label for="_number">Nombre</label>
+                                                            <input type="number" size="5" name="_number" value="1"><br>
+                                                            <input type="hidden" name="_name" value="bulbiMug">
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                            <tfoot>
+                                                <tr>
+                                                    <td colspan="2" align="right">
+                                                        <input type="submit" value="Commander">
+                                                    </td>
+                                                </tr>
+                                            </tfoot>
+                                        </table>
                                         <br>
 
-                                        <input type="submit" value="Commander">
                                     </form>
                                 </td>
+                                
                             </tr>
 
                             <tr>

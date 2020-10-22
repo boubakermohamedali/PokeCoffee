@@ -14,7 +14,7 @@
             <tr>
                 <th>
                     <p>
-                        <a href="accueil.html">Accueil</a>
+                        <a href="../accueil.html">Accueil</a>
                         >
                         <a href="./">Les pokemugs</a>
                         >
@@ -42,27 +42,55 @@
                                     <img src="img/naniMug.jpg" alt="naniMug" width="400">
                                 </td>
 
+
                                 <td align="right">
 
                                     <form action="../form/commander.html" method="GET" target="_parent">
 
-                                        <fieldset>
-                                            <legend>NANI !!</legend>
-                                            <h3>Rien de mieux pour exprimer votre surprise à un nippon comme Pikachu !
-                                            </h3>
-                                        </fieldset>
-                                        <br>
-                                        
-                                        <div>
-                                            <label for="_number">Nombre</label>
-                                            <input type="number" size="5" name="_number" value="1"><br>
-                                            <input type="hidden" name="_name" value="nanimug">
-                                        </div>
+                                
+                                        <table bgcolor="bisque">
+                                            <thead>
+                                                <tr>
+                                                    <th colspan="2">
+                                                        <fieldset>
+                                                            <legend>NANI !!</legend>
+                                                            <h3>Rien de mieux pour exprimer votre surprise à un nippon comme Pikachu !
+                                                            </h3>
+                                                        </fieldset>
+                                                    </th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td align="right">
+                                                        <fieldset>
+                                                            <legend for="_number">Prix</legend>
+                                                            <big> 14,</big> <sup> 99</sup> €<br>
+                                                            <input type="hidden" name="_name" value="bulbiMug">
+                                                        </fieldset>
+                                                    </td>
+                                                    <td align="right">
+                                                        <div>
+                                                            <label for="_number">Nombre</label>
+                                                            <input type="number" size="5" name="_number" value="1"><br>
+                                                            <input type="hidden" name="_name" value="bulbiMug">
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                            <tfoot>
+                                                <tr>
+                                                    <td colspan="2" align="right">
+                                                        <input type="submit" value="Commander">
+                                                    </td>
+                                                </tr>
+                                            </tfoot>
+                                        </table>
                                         <br>
 
-                                        <input type="submit" value="Commander">
                                     </form>
                                 </td>
+
                             </tr>
 
                             <tr>
