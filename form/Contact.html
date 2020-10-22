@@ -6,36 +6,53 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="" method="GET">
-        <table align="center">
+    <form action="validation.html" method="GET" target="_parent">
+        <table align="center" width="850" height="500">
+            <thead>
+                <tr>
+                    <td colspan="2" align="center">
+                        <h1>
+                            Contactez nous !
+                        </h1>
+                    </td>
+                </tr>
+            </thead>
             <tbody>
-                <tr align="center">
+                <tr>
                     <td>
                         <label for="nom"><b> Nom</b></label>
                     </td>
-                    <td>
-                        <label for=""><b>Mail</b></label>
+                    <td align="right" rowspan="8">
+                        <img src="../img/gardevoir.png" alt="" width="400">
                     </td>
                 </tr>
-                <tr align="center">
+                <tr>
                     <td>
                         <input type="text" name="_nom" id="nom" size="25">
                     </td>
+                </tr>
+                <tr>
+                    <td>
+                        
+                        <label for=""><b>Mail</b></label>
+                    </td>
+                </tr>
+                <tr>
                     <td>
                         <input type="mail" name="_mail" id="mail" size="25">
                     </td>
                 </tr>
                 <tr>
                     <td colspan="2">
-                        <hr>
+
                     </td>
                 </tr>
-                <tr align="center">
+                <tr>
                     <td colspan="2">
                         <label for="message"><b> Votre Message</b></label>
                     </td>
                 </tr>
-                <tr align="center">
+                <tr>
                     <td colspan="2">
                         <textarea class="form-control" name="_message" id="message" rows="3" cols="100"
                             maxlength="200"></textarea>
@@ -43,7 +60,9 @@
                 </tr>
                 <tr align="right">
                     <td colspan="2">
-                        <input type="submit" value="Envoyer">
+                        <font size="5">
+                            <input type="submit" value="Envoyer">
+                        </font>
                     </td>
                 </tr>
             </tbody>

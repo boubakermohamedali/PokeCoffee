@@ -3,7 +3,7 @@ let pokesnackscartes =
         [
             "img/essai1.jpg",
             "Le repas de Pikachu",
-            "article",
+            "produitpika",
             "img/produitpika/slidepika.png",
             "Un autre joli visage de Pikachu apparaît lorsque vous avez fini de manger !",
             "9.99"
@@ -11,7 +11,7 @@ let pokesnackscartes =
         [
             "img/essai1.jpg",
             "Le repas d'évoli",
-            "article",
+            "produitevoli",
             "img/produitevoli/evoli.png",
             "Un repas d'évoli populaire qui est maintenant plus grand que jamais !" ,
             "9.99"
@@ -19,7 +19,7 @@ let pokesnackscartes =
         [
             "img/essai1.jpg",
             "Le repas de Ronflex",
-            "article",
+            "produitronflex",
             "img/produitronflex/ronflex.png",
             " Remplissez votre ventre ! Deviendrez-vous somnolent comme Ronflex ?",
             "12.99"
@@ -27,7 +27,7 @@ let pokesnackscartes =
         [
             "img/essai1.jpg",
             "Crêpes aux fruits Pokémon Cafe",
-            "article",
+            "produitcrepe",
             "img/produitcrepe/crepes.png",
             " Dégustez des crêpes originales avec une garniture de fruits abondante.",
             "15.99"
@@ -35,7 +35,7 @@ let pokesnackscartes =
         [
             "img/essai1.jpg",
             "Je vous choisis !",
-            "article",
+            "produitpokeball",
             "img/produitpokeball/pokeball.png",
             "Ce qu'il y a à l'intérieur est un secret jusqu'à ce que vous arriviez ! Venez voir",
             "15.99"
@@ -51,7 +51,7 @@ let mugs =
             "Le BulbiMug",
             "bulbimug",
             "img/bulbiMug.jpg",
-            "Un Mug bizarre et original, bulbizar ré-haussera vos thés",
+            "Un Mug bizarre et original, bulbizar ré-haus...",
             "14,99"
         ],
         [
@@ -59,7 +59,7 @@ let mugs =
             'Le "NANI" mug',
             "nanimug",
             "img/naniMug.jpg",
-            "Rien de mieux pour exprimer votre surprise à un nippon comme Pikachu !",
+            "Rien de mieux pour exprimer votre surprise ...",
             "9,99"
         ],
         [
@@ -110,7 +110,7 @@ let fabrique = (tab, enLigne = true) => {
     tab.length
     let table = [
         `<table align="center">
-        <thead>
+        
     <tbody>
         <tr align="center">`,
         `</tr>
@@ -174,7 +174,7 @@ let fabrique = (tab, enLigne = true) => {
     </tr >
     <tr>
         <td colspan="2" valign=top align= right>
-            <form action="../form/panier.html" method="get">
+            <form action="../form/commander.html" method="get">
             <input type="hidden" name="${ele[2]}">
                 <input type="submit" value="Achetez">&nbsp;  
             </form>
