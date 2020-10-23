@@ -192,4 +192,4 @@ let fabrique = (tab, enLigne = true) => {
 let selecteur
 document.querySelectorAll(".lesCartes").forEach(x => x.insertAdjacentHTML('afterbegin', fabrique(mugs)))
 document.querySelectorAll(".lessnacks").forEach(x => x.insertAdjacentHTML('afterbegin', fabrique(pokesnackscartes)))
-
+// sdfsqf
